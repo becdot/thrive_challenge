@@ -4,7 +4,7 @@
   "description": "Coding challenges for Thrive Global!",
   "main": "q1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha *_test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/becdot/thrive_challenge/issues"
   },
-  "homepage": "https://github.com/becdot/thrive_challenge#readme"
+  "homepage": "https://github.com/becdot/thrive_challenge#readme",
+  "dependencies": {
+    "eslint": "^4.0.0",
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^4.0.0",
+    "mocha": "^3.4.2"
+  }
 }
