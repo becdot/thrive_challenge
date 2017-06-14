@@ -1,0 +1,39 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.sticky-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+.table-colored > tbody > tr:nth-of-type(odd) {
+  color: #32a06d;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.green-background {
+  background-color: #32a06d
+}
+
+.white {
+  color: #fff;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.sticky-footer-container .white {
+  margin: 20px 0;
+}
