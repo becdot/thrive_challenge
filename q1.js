@@ -1,4 +1,8 @@
-// Write a function that takes an array of integers and produces the sum of the squares of those numbers.
+/**
+ * INSTRUCTIONS
+ *
+ * Write a function that takes an array of integers and produces the sum of the squares of those numbers.
+ */
 
 const squareSum = (ints = []) => {
   if (ints.find(i => !Number.isInteger(i))) {
