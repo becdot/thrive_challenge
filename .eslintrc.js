@@ -6,6 +6,7 @@ module.exports = {
     },
     "extends": "eslint:recommended",
     "globals": {
+        "before": false,
         "describe": false,
         "it": false
     },
