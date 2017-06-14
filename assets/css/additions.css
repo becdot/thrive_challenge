@@ -16,23 +16,39 @@ body {
   height: 60px;
 }
 
+/* Additional styles
+-------------------------------------------------- */
+
+.table-colored > tbody > tr > td {
+  border-top: 0px;
+}
+
 .table-colored > tbody > tr:nth-of-type(odd) {
-  color: #32a06d;
-  font-size: 32px;
+  color: #5cc5cb;
+  font-size: 60px;
   font-weight: bold;
 }
 
+.table-colored > tbody > tr:nth-of-type(even) {
+  font-size: 18px;
+}
+
+.table-colored > tbody > tr:nth-of-type(even) > td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .green-background {
-  background-color: #32a06d
+  background-color: #5cc5cb
 }
 
 .white {
   color: #fff;
 }
 
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
+.grey {
+  color: #a9a9a9;
+}
 
 .sticky-footer-container .white {
   margin: 20px 0;
